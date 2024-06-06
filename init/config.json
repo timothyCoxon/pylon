@@ -1,0 +1,14 @@
+{
+    "constants": {
+        "obsidian_base_path": "D:/Vault/",
+        "date_format": "%Y/%m/%d",
+        "time_format": "%H:%M:%S"
+    },
+    "globals": {
+        "current_date": null,
+        "current_user": null,
+        "seen_names": [
+
+        ]
+    }
+}

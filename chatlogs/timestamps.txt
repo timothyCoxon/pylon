@@ -1,0 +1,84 @@
+```
+# Open the file containing the timestamps
+with open('timestamps.txt', 'r') as file:
+    lines = file.readlines()
+
+# Process each line to change the timestamp format
+new_lines = []
+for line in lines:
+    # Splitting the timestamp from the rest of the line if necessary
+    parts = line.strip().split(' ')
+    timestamp = parts[0]
+    # Extracting date and time from the timestamp
+    date, time = timestamp[1:-1].split(' ')
+    # Reformatting the timestamp
+    new_timestamp = f"[{date}] ({time})"
+    # Reconstructing the line if there was more content beyond the timestamp
+    new_line = ' '.join([new_timestamp] + parts[1:])
+    new_lines.append(new_line)
+
+# Write the modified lines back to a new file or overwrite the old one
+with open('modified_timestamps.txt', 'w') as file:
+    for line in new_lines:
+        file.write(line + '\n')
+``` 
+
+Can this be modified so that it can be run as a command from CLI and would accept text inserted into and output the resulting text in a way that it could be chained with other commands? I would also like to be able to run this as a command, eventually having a series of inputs from different sources, then any number of processes like the below that could be chained together in any order and finally a selection of outputs that would all for output in whatever format I choose. 
+
+So for example I could have running on command line:
+`read chat_2024-03-20.txt; d = get_date; ( extract_wisdom | save $d_wisdom ); ( extract_tracks | save_CSV $d_playlist ); (extract_names | update_names); ( chatlog_timestamp | chatlog_linknames | clean_chatlog | save $d_chatlog);`
+
+This I hope would be about to:
+* read - take a text file read it and pass on the info. This should make sure every line has a timestamp to start with if the line doesn't then it should be appended to the previous line so some form of eencoded linebreak
+* d = get_date - would extract the date from the chatlog and save that as a variable
+* extract_wisdom - make use of the fabric patterns natively
+* save $d_wisdom - use fabrics save system.
+* extract_tracks - custom python to extract a list of tracks from a chat log
+* save_CSV - reformat a list so it's valid csv
+* extract_names - go through a chat log and extract a list of names
+* update_names - update a prexisting csv from a list and only add in the new unique names
+* chatlog_timestamp - reformat all the timestamps in a file based on a particular setting
+* chatlog_linknames - determine all the names within a file, confirming them with a csv, then reformat them so that they are formated in a particular way.
+* clean_chatlog - remove everthing except for actual chat from recognised people.
+
+Some other possible modules:
+* extract_debug - pull just the debug infomation from chat.
+* filter_people - extract just the conversations from particular people
+* split_by_conversation - break apart the chatlog so that if is just conversations each different conversation could be saved to a file of its own. Dependant on particpants and context.
+* filter_context - extract just the conversatiosn about a particular subject.
+* extract_tasks - pull out a list of tasks/actions from a conversation
+* inject_obs_* - Any one of a number of things but would insert particular things directly into an obsidian vault to specific locations.
+* extract_events - extract all the events mentioned from chat
+* export_ics - generate calendar events
+* get_sl_user - from a username goto a specific page and scrape info from it for that user.
+* save_sql - save data in sql format.
+* export_sql - insert data direct into database
+* chatlog_to_table - break down a chatlog into a table format  
+etc.
+
+Note this is all using the standard CLI syntax... 
+Can you make sure the above will work as I am looking for it to work?
+If you want to start generating other modules go ahead. 
+And if you have guidance on where to go from here, that would be good. 
+
+
+
+* extract_tracks - custom python to extract a list of tracks from a chat log
+
+
+* save_CSV - reformat a list so it's valid csv
+
+
+* extract_names - go through a chat log and extract a list of names
+
+
+* update_names - update a prexisting csv from a list and only add in the new unique names
+
+
+* chatlog_timestamp - reformat all the timestamps in a file based on a particular setting
+
+
+* chatlog_linknames - determine all the names within a file, confirming them with a csv, then reformat them so that they are formated in a particular way.
+
+
+* clean_chatlog - remove everthing except for actual chat from recognised people.
