@@ -1,0 +1,71 @@
+path,name,desc,complete,tasks,ideas,tests
+/home/timothy/pylon/_dev/apply_patches.py,apply_patches,Script to apply patches to the project,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/_dev/generate_metadata_csv.py,generate_metadata_csv,Script to run throught the project to gather the current header data,No,Need moving to ~/pylon/dev/,Is this technically needed? isn't it the same as generate_overview.py?,Need Tests
+/home/timothy/pylon/_dev/generate_overview.py,generate_overview,Script to generate a csv containing all header comment and frontmatter,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/_dev/setup_project.py,setup_project,Seems be the file that generates the patch files to update the project,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/README.md,README,Project readme file.,No,,,
+/home/timothy/pylon/src/split/hour.py,hour,Split out the hour value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/month.py,month,Split out the month value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/minute.py,minute,Split out the minute value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/split.md,split,Any Script with the function of taking a piece of data from an existing row and placing it in a new column leaving the original row in tact.,No,,,
+/home/timothy/pylon/src/split/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/split/second.py,second,Split out the seond value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/time.py,time,Split out the time value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/year.py,year,Split out the year value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/day.py,day,Split out the day value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/name.py,name,Split out the name value of the timestamp to it's own row,No,Need split for username and display names ,,Need Tests
+/home/timothy/pylon/src/save/scratch.md,scratch,Just a random file,No,,,
+/home/timothy/pylon/src/save/csv.py,csv,"Save the current data off as a csv - needs keyword overwrite, append or update follow by filepath/name",No,,,Need Tests
+/home/timothy/pylon/src/save/cat2.md,cat2,Just a random file,No,,,
+/home/timothy/pylon/src/save/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/save/save.md,save,Scripts that export the data to various formats,No,,,
+/home/timothy/pylon/src/save/__pycache__/__pycache__.md,__pycache__,unknown,No,,,
+/home/timothy/pylon/src/save/__pycache__/README.md,README,unknown,No,,,
+/home/timothy/pylon/_archive/chatlogs/parse_dates.py,parse_dates,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/print_all.py,print_all,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/reformat_timestamps.py,reformat_timestamps,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/prepare_timestamps.py,prepare_timestamps,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/chatlogs.md,chatlogs,Old directory - no longer required,No,,,
+/home/timothy/pylon/_archive/chatlogs/old/chatlog-timestamp.py,chatlog-timestamp,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/old/chatlog-process.py,chatlog-process,Old directory - no longer required,No,,,Need Tests
+/home/timothy/pylon/_archive/chatlogs/old/README.md,README,Old directory - no longer required,No,,,
+/home/timothy/pylon/_archive/chatlogs/old/old.md,old,Old directory - no longer required,No,,,
+/home/timothy/pylon/src/fs/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/fs/fs.md,fs,Scripts that are meant to do actions with the local file system,No,,,
+/home/timothy/pylon/src/scrape/sl_destinations.py,sl_destinations,Goto the destinations guide on secondlife.com and return all the destinations,No,,,Need Tests
+/home/timothy/pylon/src/scrape/scrape.md,scrape,Scripts that goto a website to pull data from them.,No,Need scrape_sl_username.py https://my.secondlife.com/[user.name]; Need scrape_sl_userid.py https://world.secondlife.com/resident/[uuid],,
+/home/timothy/pylon/src/scrape/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/filter/term.py,term,Filter out any row based on term,No,,,Need Tests
+/home/timothy/pylon/src/filter/debug.py,debug,Filter out and row that is debug ,No,,,Need Tests
+/home/timothy/pylon/src/filter/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/filter/time.py,time,Filter out any row based on cron style time options,No,,,Need Tests
+/home/timothy/pylon/src/filter/date.py,date,Filter out any row based on cron style date options,No,,,Need Tests
+/home/timothy/pylon/src/filter/filter.md,filter,Script that remove rows from the data based on specific criteria,No,,,
+/home/timothy/pylon/src/filter/name.py,name,Filter out any row based on name,No,,,Need Tests
+/home/timothy/pylon/src/util/util.md,util,General Uitlity Scripts,No,,,
+/home/timothy/pylon/src/util/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/util/unique.py,unique,"Remove all but one of rows that are the same, if headers are given only work by those columns.",No,,,Need Tests
+/home/timothy/pylon/src/init/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/init/init.md,init,Scripts that are required by other scripts,No,,,
+/home/timothy/pylon/src/init/config.py,config,Initial Configurations required by many files,No,,,Need Tests
+/home/timothy/pylon/src/init/setup_project.py,setup_project,duplicate not required,No,,,Need Tests
+/home/timothy/pylon/src/read/read.md,read,Scripts that specifically read particular files,No,Need read/obsidian_*.py,,
+/home/timothy/pylon/src/read/chat.py,chat,Read a txt file with the expectation that it's a chatlog,No,,,Need Tests
+/home/timothy/pylon/src/read/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/inject/inject.md,inject,Script that export the data to specific locations and formats with a particular program in mind.,No,,,
+/home/timothy/pylon/src/inject/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/inject/obsidian/obsidian.md,obsidian,Injection scripts specfically for Obsidian,No,Need parse_obsidian_timestamp.py; Need parse_obsdian_name.py; Need inject_obsidian_slurl.py; Need inject_obsidian_name.py; Need inject_obsidian_chatlog.py; need inject_obsidian_music.py; need inject_obsidian_slurl.py; need inject_obsidian_url.py; need inject_obsidain_task.py; need inject_obsidain_fileclass.py; need inject_obsidain_template.py; need inject_obsidain_wisdom.py; need inject_obsidain_group.py; need inject_obsidain_location.py; need inject_obsidain_region.py; need inject_obsidain_note.py; need inject_obsidain_idea.py; need inject_obsidain_canvas.py;,,
+/home/timothy/pylon/src/inject/obsidian/README.md,README,Old file Not Needed,No,,,
+/home/timothy/pylon/src/extract/view_dist.py,view_dist,Extract all instances of view distance messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/url.py,url,Extract all URL found,No,,,Need Tests
+/home/timothy/pylon/src/extract/online.py,online,Extrance all instances of online status messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/slurl.py,slurl,Extract all slurl,No,,,Need Tests
+/home/timothy/pylon/src/extract/debug.py,debug,Extract all debug messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/on_region.py,on_region,Extract all instances of on region messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/chat_range.py,chat_range,Extract all instances of  chat range messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/names.py,names,Extract all the names from the data,No,Need Display Name and Username Versions,,Need Tests
+/home/timothy/pylon/src/extract/age_alert.py,age_alert,Extract all instances of age_alert messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/extract.md,extract,Scripts that extract particular data from current data to end up with a new set of data.,No,,,
+/home/timothy/pylon/src/extract/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/extract/music.py,music,Extract all instances of music being anounced,No,,,Need Tests
+/home/timothy/pylon/src/extract/sluri.py,sluri,Extract all instances of sluri,No,Need split version of this,,Need Tests

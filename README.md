@@ -1,3 +1,11 @@
+---
+name: README
+desc: Project readme file.
+complete: No
+tasks: 
+ideas: 
+tests: 
+---
 # Pylon
 ## ...because it's python and nylon is a kinda fabric.
 

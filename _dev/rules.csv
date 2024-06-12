@@ -1,0 +1,52 @@
+id,parent,Rule,Description
+1,2,.gitIgnore File,Please follow the gitIgnore; Unless these rules provide caveats. Any Code written should follow everything written within this Primer.
+2,0,Directory Structure, Here is a short breakdown of the Directory structure.
+3,2,pylon Directory,Root directory of the repository.
+4,3,.git Directory,Please never write a script that will go into this directory and change anything.
+5,3,_archive Directory,I have a bad habit of holding onto things. Feel free to read or add to this directory. Do not modify or delete files.
+6,3,_dev Directory,For files used in the development process.
+7,6,logs Directory,This is for any logging that needs to happen. This will be within the .gitignore.
+8,6,results Directory,For any unit test results or other dev related results. This is in the .gitignore.
+9,6,tests Directory,For unit tests of files. The directory structure in this folder roughly emulates as if it was pylon. 
+10,3,_docs,For any further documentations about the project.
+11,10,_research,For my notes/research. I might request you read from here. It will be included in the .gitIgnore
+12,3,src Directory,For files for the finished version. Organize files by action type and context.
+13,10,_templates Directory,Any script in src that needs a template can store them in here.
+14,10,_cache Directory,Any script in src that needs temporary storage for data can use this directory. The contents of this directory will be included in the .gitignore.
+15,3,README.md File,My dashboard for what is going on with the project and for the documentation of.
+16,0,Metadata,Include metadata headers in Python scripts and front matter in Markdown files.
+17,16,Directory Markdowns,Except for .git; _dev/logs; _doc/_research; src/_cache and any child directories of them should all include a md file named as the directory e.g. _dev/tests should have _dev/tests/test.md
+18,17,Directory Markdown Layout - Frontmatter,"---
+        name: [""name""]
+        authors: Timothy Coxon & [""Pick a name for yourself""]
+        date-created: [""creation date""]
+        date-updated: [""last update""]
+        license: Pylon © 2024 by Timothy Coxon is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/  
+        desc: [""desc""]
+        complete: [""complete""]
+        tasks: [""tasks""]
+        ideas: [""ideas""]
+        tests: [""tests""]
+        ---" Complete should be in the form of a percentage value. Tasks should be a list of items preceeded by [ ] or [x] for incompplete or complete. Ideas just a simple list. Test should be a list like: 3/5 filename.py Where 3 is number of passing tests and 5 is total number of tests.  
+19,16,Script Markdown Headers,All Scripts Should have a similar section in comments as their headers e.g. "# name: [""name""]
+# script: Timothy Coxon & [""Pick a name for yourself""]
+# date: created [""creation date""] - last update [""last update""]
+# license: Pylon © 2024 by Timothy Coxon is licensed under CC BY-NC-SA 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/  
+#
+# desc: [""desc""]
+#
+# complete: [""complete""]
+# tasks: [""tasks""]
+# ideas: [""ideas""]
+# tests: [""tests""]
+#
+"
+20,17,Directory Markdown Layout - Title,Level one header with the directory name.
+21,17,Directory Markdown Layout - Navigation,If exists the linked name of the previous sibling folders markdown file. A spacer "<==<  /\==/\". Linked name of the parents folder markdown file. A spacer "/\==/\   >==>". If exists the linked name of the next sibling folders markdown file. All links should just be the filename without the .md e.g. [tests](./tests.me) . After these newline and a spacer "---"
+21,17,Directory Markdown Layout - Description,The Description of the project.
+22,17,Directory Markdown Layout - Info,A markdown table to show | Item | Value | for: name: authors: date-created: date-updated: completed: license. Then a newline, a spacer "---" and another new line.
+23,17,Direcotry Markdown Layout - Contents,Another table to show the contents of the current folder. | Folders | Files |    Folders should be links to their associated markdown files. Files should be written as their Filename then a space then number of passing tests a "/" then total number of tests. Then a newline, a spacer "---" and another new line.
+24,17,Directory Markdown Layout - Tasks,Two Column table for | Done | Task |. Done should be represented as "[ ]" for no and "[X]" for yes. Then a newline, a spacer "---" and another new line.
+25,17,Directory Markdown Layout - Ideas,Single Column table for | Ideas |. Then a newline, a spacer "---" and another new line.
+26,16,README.md Metadata,So README.md is the one file I was going to make different. Basically can you make it's in the same way all the other Folder Markdown files but this should do everything in the project. I will want to add a load of other stuff to this file so and I would also like to use this as the main interfacte to update things. Completeing tasks from example. 
+27,0,Patch System,Use a patch file to apply changes across multiple files.

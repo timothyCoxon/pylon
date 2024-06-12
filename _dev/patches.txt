@@ -1,0 +1,482 @@
+file:/home/timothy/pylon/apply_patches.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/generate_overview.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/setup_project.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/README.md
+change:0,---
+change:1,name: example script
+change:2,purpose: to show the layout of a standard header
+change:3,task: to include this in all python scripts
+change:4,task: to make markdown files for each folder with similar info to this included as front matter.
+change:5,test: None as yet
+change:6,task: Make Tests!
+change:7,idea: Make other things based on this like a project task list or test suite.
+change:8,complete: no
+change:9,---
+change:10,
+file:/home/timothy/pylon/split/hour.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/month.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/minute.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/second.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/time.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/year.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/day.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/split/name.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/save/csv.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/save/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/parse_dates.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/print_all.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/reformat_timestamps.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/prepare_timestamps.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/old/chatlog-timestamp.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/chatlogs/old/chatlog-process.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/fs/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/scrape/sl_destinations.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/term.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/debug.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/time.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/date.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/filter/name.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/util/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/util/unique.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/init/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/init/config.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/read/chat.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/read/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/inject/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/view_dist.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/url.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/online.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/slurl.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/debug.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/on_region.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/chat_range.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/names.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/age_alert.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/__init__.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/music.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
+file:/home/timothy/pylon/extract/sluri.py
+change:0,# name: example script
+change:1,# purpose: to show the layout of a standard header
+change:2,# task: to include this in all python scripts
+change:3,# task: to make markdown files for each folder with similar info to this included as front matter.
+change:4,# test: None as yet
+change:5,# task: Make Tests!
+change:6,# idea: Make other things based on this like a project task list or test suite.
+change:7,# complete: no
+change:8,
