@@ -14,11 +14,11 @@ def update_python_file(file_path, metadata):
     lines = [line for line in lines if not line.startswith('# name:') and not line.startswith('# purpose:') and not line.startswith('# complete:') and not line.startswith('# task:') and not line.startswith('# idea:') and not line.startswith('# test:')]
 
     # Add new metadata comments
-    lines.insert(0, f"# test: {metadata['tests']}\n")
-    lines.insert(0, f"# idea: {metadata['ideas']}\n")
-    lines.insert(0, f"# task: {metadata['tasks']}\n")
+    lines.insert(0, f"# test: {metadata['test']}\n")
+    lines.insert(0, f"# idea: {metadata['idea']}\n")
+    lines.insert(0, f"# task: {metadata['task']}\n")
     lines.insert(0, f"# complete: {metadata['complete']}\n")
-    lines.insert(0, f"# purpose: {metadata['desc']}\n")
+    lines.insert(0, f"# purpose: {metadata['purpose']}\n")
     lines.insert(0, f"# name: {metadata['name']}\n")
 
     with open(file_path, 'w') as file:
@@ -44,11 +44,11 @@ def update_markdown_file(file_path, metadata):
     front_matter = [
         '---\n',
         f'name: {metadata["name"]}\n',
-        f'desc: {metadata["desc"]}\n',
+        f'purpose: {metadata["purpose"]}\n',
         f'complete: {metadata["complete"]}\n',
-        f'tasks: {metadata["tasks"]}\n',
-        f'ideas: {metadata["ideas"]}\n',
-        f'tests: {metadata["tests"]}\n',
+        f'task: {metadata["task"]}\n',
+        f'idea: {metadata["idea"]}\n',
+        f'test: {metadata["test"]}\n',
         '---\n'
     ]
     lines = front_matter + lines
@@ -63,12 +63,17 @@ def update_files_from_csv(csv_path):
             file_path = row['path']
             metadata = {
                 'name': row['name'],
-                'desc': row['desc'],
+                'purpose': row['desc'],  # Map 'desc' to 'purpose'
                 'complete': row['complete'],
-                'tasks': row['tasks'],
-                'ideas': row['ideas'],
-                'tests': row['tests']
+                'task': row['tasks'],  # Map 'tasks' to 'task'
+                'idea': row['ideas'],  # Map 'ideas' to 'idea'
+                'test': row['tests']   # Map 'tests' to 'test'
             }
+            # Ensure metadata values are formatted as comma-separated lists
+            metadata['task'] = ', '.join(metadata['task'].split(','))
+            metadata['idea'] = ', '.join(metadata['idea'].split(','))
+            metadata['test'] = ', '.join(metadata['test'].split(','))
+
             if file_path.endswith('.py'):
                 update_python_file(file_path, metadata)
             elif file_path.endswith('.md'):
