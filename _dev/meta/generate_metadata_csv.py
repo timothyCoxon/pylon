@@ -1,9 +1,10 @@
 # name: generate_metadata_csv
-# purpose: Script to run throught the project to gather the current header data
+# purpose: Script to run through the project to gather the current header data
 # complete: No
-# task: Need moving to ~/pylon/dev/
+# task: [x] Need moving to ~/[pylon]/pylon/_dev/
 # idea: Is this technically needed? isn't it the same as generate_overview.py?
 # test: Need Tests
+
 import os
 import csv
 import pathspec

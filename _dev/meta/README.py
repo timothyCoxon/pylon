@@ -1,3 +1,10 @@
+# name: README
+# purpose: For the generation of certain aspects of the README.md file in the root directory
+# complete: No
+# task: [x] Need moving to ~/[pylon]/pylon/_dev/
+# idea: 
+# test: Need Tests
+
 import os
 import csv
 

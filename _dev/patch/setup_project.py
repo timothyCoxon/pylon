@@ -1,7 +1,7 @@
 # name: setup_project
 # purpose: Seems be the file that generates the patch files to update the project
 # complete: No
-# task: Need moving to ~/pylon/dev/
+# task: [x] Need moving to ~/[pylon]/pylon/_dev/
 # idea: 
 # test: Need Tests
 

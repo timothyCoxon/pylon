@@ -1,0 +1,101 @@
+path,name,desc,complete,tasks,ideas,tests
+/home/timothy/pylon/README.md,README,Project readme file.,No,,,
+/home/timothy/pylon/pylon/README.md,,,,,,
+/home/timothy/pylon/pylon/_docs/_templates/templates.md,,,,,,
+/home/timothy/pylon/pylon/_docs/_cache/cache.md,,,,,,
+/home/timothy/pylon/pylon/_docs/_research/research.md,,,,,,
+/home/timothy/pylon/pylon/_dev/tests/tests.md,,,,,,
+/home/timothy/pylon/src/split/hour.py,hour,Split out the hour value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/month.py,month,Split out the month value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/minute.py,minute,Split out the minute value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/split/second.py,second,Split out the seond value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/time.py,time,Split out the time value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/year.py,year,Split out the year value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/day.py,day,Split out the day value of the timestamp to it's own row,No,,,Need Tests
+/home/timothy/pylon/src/split/name.py,name,Split out the name value of the timestamp to it's own row,No,Need split for username and display names,,Need Tests
+/home/timothy/pylon/src/save/csv.py,csv,"Save the current data off as a csv - needs keyword overwrite, append or update follow by filepath/name",No,,,Need Tests
+/home/timothy/pylon/src/save/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/filter/term.py,term,Filter out any row based on term,No,,,Need Tests
+/home/timothy/pylon/src/filter/debug.py,debug,Filter out and row that is debug,No,,,Need Tests
+/home/timothy/pylon/src/filter/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/filter/time.py,time,Filter out any row based on cron style time options,No,,,Need Tests
+/home/timothy/pylon/src/filter/date.py,date,Filter out any row based on cron style date options,No,,,Need Tests
+/home/timothy/pylon/src/filter/name.py,name,Filter out any row based on name,No,,,Need Tests
+/home/timothy/pylon/src/util/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/util/unique.py,unique,"Remove all but one of rows that are the same, if headers are given only work by those columns.",No,,,Need Tests
+/home/timothy/pylon/src/init/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/init/config.py,config,Initial Configurations required by many files,No,,,Need Tests
+/home/timothy/pylon/src/read/chat.py,chat,Read a txt file with the expectation that it's a chatlog,No,,,Need Tests
+/home/timothy/pylon/src/read/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/inject/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/extract/view_dist.py,view_dist,Extract all instances of view distance messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/url.py,url,Extract all URL found,No,,,Need Tests
+/home/timothy/pylon/src/extract/online.py,online,Extrance all instances of online status messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/slurl.py,slurl,Extract all slurl,No,,,Need Tests
+/home/timothy/pylon/src/extract/debug.py,debug,Extract all debug messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/on_region.py,on_region,Extract all instances of on region messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/chat_range.py,chat_range,Extract all instances of  chat range messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/names.py,names,Extract all the names from the data,No,Need Display Name and Username Versions,,Need Tests
+/home/timothy/pylon/src/extract/age_alert.py,age_alert,Extract all instances of age_alert messages,No,,,Need Tests
+/home/timothy/pylon/src/extract/__init__.py,__init__,Initisalisation script,No,,,Need Tests
+/home/timothy/pylon/src/extract/music.py,music,Extract all instances of music being anounced,No,,,Need Tests
+/home/timothy/pylon/src/extract/sluri.py,sluri,Extract all instances of sluri,No,Need split version of this,,Need Tests
+/home/timothy/pylon/_doc/help.md,,,,,,
+/home/timothy/pylon/_doc/_research/Ideas.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/7f4434ca-1f0a-400e-97fb-593025ff04bf.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/b6d062f0-c352-4be7-9dd2-690735c57ac8.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/aab5f303-cea1-4192-9dde-718d0a5919ca.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/dc50800b-b145-4fb1-a2bf-20f704a64a0b.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/b02c021a-1431-4ce2-850b-09f36733de0c.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/32bcd00b-bf61-4346-b245-bea228afa601.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/30f5faeb-1b89-4a29-bdf8-16a1652cf0a8.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/0ffc5805-7404-4d37-8b9e-3e0c2a35b38c.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/b1a28c53-5ed3-4f96-ba2f-3fbe9fc35545.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/113a207e-cc05-46c7-8313-9a0e877ac905.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/b77cbd9a-a1fe-490c-ab7a-1cb5e29ed958.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/575210f3-ede0-47f9-a2e0-f0f7e19ec454.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/22560c14-ee2a-499c-ac15-b545d19f8c5b.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/443381ff-fa69-416f-b57c-f6c6516e32b5.md,,,,,,
+/home/timothy/pylon/_doc/_research/Tasks Research/73c34899-14aa-4929-bbdb-e9765f7e1dbf.md,,,,,,
+/home/timothy/pylon/_dev/apply_patches.py,apply_patches,Script to apply patches to the project,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/_dev/generate_metadata_csv.py,generate_metadata_csv,Script to run throught the project to gather the current header data,No,Need moving to ~/pylon/dev/,Is this technically needed? isn't it the same as generate_overview.py?,Need Tests
+/home/timothy/pylon/_dev/update_files_with_metadata.py,,,,,,
+/home/timothy/pylon/_dev/generate_overview.py,generate_overview,Script to generate a csv containing all header comment and frontmatter,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/_dev/setup_project.py,setup_project,Seems be the file that generates the patch files to update the project,No,Need moving to ~/pylon/dev/,,Need Tests
+/home/timothy/pylon/_dev/README.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/time_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/name_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/hour_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/second_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/minute_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/year_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/month_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/split/day_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/save/csv_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/scrape/sl_destinations_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/filter/time_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/filter/name_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/filter/term_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/filter/date_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/filter/debug_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/util/unique_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/init/config_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/read/chat_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/view_dist_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/age_alert_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/url_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/names_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/online_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/sluri_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/slurl_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/debug_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/on_region_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/chat_range_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/src/extract/music_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/run_tests.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/apply_patches_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/setup_project_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/generate_overview_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/generate_metadata_csv_test.py,,,,,,
+/home/timothy/pylon/_dev/tests/_dev/update_files_with_metadata_test.py,,,,,,

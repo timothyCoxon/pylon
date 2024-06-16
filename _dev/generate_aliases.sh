@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing the scripts
-BASE_DIR=~/pylon
+BASE_DIR=~/[pylon]/pylon
 
 # Whitelist and blacklist arrays
 WHITELIST=()

@@ -1,3 +1,10 @@
+# name: update_files_with_metadata
+# purpose: generates the metadata for py and md files from Pylon-Sorting.csv
+# complete: No
+# task: [x] Need moving to ~/[pylon]/pylon/_dev/
+# idea: 
+# test: Need Tests
+
 import csv
 import os
 

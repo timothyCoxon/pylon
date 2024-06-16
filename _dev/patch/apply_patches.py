@@ -1,7 +1,7 @@
 # name: apply_patches
 # purpose: Script to apply patches to the project
 # complete: No
-# task: Need moving to ~/pylon/dev/
+# task: [x] Need moving to ~/[pylon]/pylon/_dev/
 # idea: 
 # test: Need Tests
 

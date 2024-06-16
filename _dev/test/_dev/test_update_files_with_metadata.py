@@ -1,7 +1,7 @@
 import unittest
 import os
 import shutil
-from update_files_with_metadata import update_python_file, update_markdown_file, update_files_from_csv
+from pylon._dev.meta.update_files_with_metadata import update_python_file, update_markdown_file, update_files_from_csv
 
 class TestUpdateFilesWithMetadata(unittest.TestCase):
 
